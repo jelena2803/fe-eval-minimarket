@@ -24,9 +24,19 @@ hr {
     width: 90%;
 }
 
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.products div {
+    padding: 5px;
+}
+
 div.products img {
-    width: 300px;
-    height: 300px;
+    width: 150px;
+    height: 150px;
     border-radius: 5px;
     border-style: solid;
 }
